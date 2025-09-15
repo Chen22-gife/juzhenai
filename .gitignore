@@ -3,28 +3,26 @@ node_modules/
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
-
-# Build
+# 构建产物
 dist/
 dist-ssr/
 *.local
 
-# Editor/OS
+# 编辑器/系统
 .DS_Store
 .vscode/
 *.swp
 Thumbs.db
 
-# Env & secrets
+# 环境变量（不要提交）
 .env
 .env.*
 server/.env
 server/.env.*
 
-# Logs
+# 日志
 logs/
 *.log
 
-# Misc
+# 其他
 coverage/
